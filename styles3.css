@@ -1,0 +1,159 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #007dc6; /* Walmart blue color */
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Add this to your existing CSS or styles.css file */
+  .walmarthd {
+      background-color: #0073e6; /* Walmart's blue color */
+      color: white;
+      padding: 13px 0;
+      text-align: center;
+    }
+    
+    .header-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .header-text {
+      margin-top: 5px;
+    }
+
+
+.billing-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.billing-container h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.billing-container h3 {
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="tel"],
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apt-unit,
+.city,
+.state,
+.zipcode {
+    width: 48%;
+}
+
+.submit-btn {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 100px;
+    border-radius: 80px;
+    cursor: pointer;
+    text-decoration: solid;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-weight: bold;
+    border-width: thin;
+    font-size: 15px;
+}
+
+.submit-btn:hover {
+    background-color: #005bab;
+}
+
+/* Walmart header styles */
+.walmarthd {
+    background-color: #0066c0; /* Walmart blue */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.walmarthd img {
+    vertical-align: middle;
+}
+
+.walmarthd h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Walmart footer styles */
+.year-footer {
+    background-color: #fff; /* White background */
+    color: #666; /* Dark gray text */
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #ddd; /* Gray border on top */
+}
+
+.year-footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.year-footer li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.year-footer a {
+    color: #666; /* Dark gray link color */
+    text-decoration: none;
+}
+
+.year-footer a:hover {
+    text-decoration: underline;
+}
+
+.year-footer .copyright {
+    margin-top: 10px;
+}
